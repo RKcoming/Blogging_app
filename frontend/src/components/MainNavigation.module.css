@@ -1,0 +1,43 @@
+li{
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.header{
+    padding:0.5rem 2rem;
+    border:white;
+    background-color: #b534abc7;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.list{
+    display: flex;
+    padding: 0.3rem;
+    border:solid white 2px;
+    border-radius: 5px;
+}
+.list li{
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+.user{
+    display: flex;
+    gap: 1rem;
+    padding:0;
+    align-items: center;
+}
+.user li{
+    color:white;
+    size: 20px;
+    padding-bottom: 0;
+    font-weight: 600;
+    
+}

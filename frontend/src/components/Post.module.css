@@ -1,0 +1,9 @@
+.post{
+    max-width: 50rem;
+    margin:auto;
+    box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.1),
+     -2px -2px 2px 1px rgba(0,0,0,0.1);
+}
+.post h1{
+    color:var(--primary-color);
+}

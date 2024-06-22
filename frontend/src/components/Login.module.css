@@ -1,0 +1,18 @@
+.login_form{
+    max-width: 40rem;
+    margin:2rem auto;
+    padding:2rem;
+    box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.1),
+    -2px -2px 2px 1px rgba(0,0,0,0.1);
+}
+.login_form input,
+.login_form label{
+    display: block;
+    width: 100%;
+    padding:0.25rem;
+}
+.action{
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}

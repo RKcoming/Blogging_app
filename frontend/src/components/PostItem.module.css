@@ -1,0 +1,31 @@
+.post_item{
+    border:solid black 1px;
+    border-radius: 5px;
+    padding:1rem;
+    margin:1rem;
+}
+.postData{
+    display: flex;
+    flex-direction: column;
+    gap:1px;
+}
+.postData h1{
+  padding:0;
+  margin:0;
+  color:var(--primary-color);
+  
+}
+.postData p{
+  padding:0;
+  margin:0;
+  color:rgba(0,0,0,0.5);
+  font-size: 12px;
+}
+.post_links a{
+    color:var(--primary-color);
+}
+.post_links{
+    display: flex;
+    justify-content: flex-end;
+    gap:0.5rem;
+}
